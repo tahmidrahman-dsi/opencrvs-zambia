@@ -19,7 +19,7 @@
     "db:clear:all": "DEV=true ./clear-all-data.sh"
   },
   "devDependencies": {
-    "csv2json": "^1.4.2",
+    "csv2json": "^2.0.2",
     "dotenv": "^6.1.0",
     "json2csv": "^4.3.0",
     "jsonwebtoken": "^8.3.0"
