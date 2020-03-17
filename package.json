@@ -43,7 +43,7 @@
     "@types/mongoose": "^5.0.16",
     "@types/node": "^10.12.5",
     "@types/node-fetch": "^2.3.4",
-    "@types/pino": "^5.14.0",
+    "@types/pino": "^5.17.0",
     "@types/string-similarity": "^3.0.0",
     "@types/uuid": "^3.4.4",
     "app-module-path": "^2.2.0",
