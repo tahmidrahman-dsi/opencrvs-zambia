@@ -29,7 +29,7 @@
     "@types/code": "^4.0.3",
     "@types/csv2json": "^1.4.0",
     "@types/dotenv": "^6.1.0",
-    "@types/fhir": "^0.0.30",
+    "@types/fhir": "^0.0.31",
     "@types/geojson": "^7946.0.4",
     "@types/hapi": "^17.8.2",
     "@types/hapi-auth-jwt2": "8.0.1",

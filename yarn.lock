@@ -553,10 +553,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/fhir@^0.0.30":
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/@types/fhir/-/fhir-0.0.30.tgz#a0aec3b2d7dd2a7584474dac446ede5f9a4d7a13"
-  integrity sha512-vDU62tUFeAYBVQThiWAfGd6D25TiLLDDS5pV19vim52FLpwWTBliLMvotbF4D/U+BmjxBKIuHGZgFnoh/HtV5g==
+"@types/fhir@^0.0.31":
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/@types/fhir/-/fhir-0.0.31.tgz#067392154124125dccc97e51a4297d448467c211"
+  integrity sha512-YF6+X+hMYLvNGB5r8LxGKPMrSqqFkyLefTQZ/8bAnr0XW8Xc2Mgf8OJ06+cj1b5ftJoeLblHpIYgKdhXdFAzrw==
 
 "@types/geojson@^7946.0.4":
   version "7946.0.7"
