@@ -571,10 +571,10 @@
     "@types/hapi" "*"
     "@types/jsonwebtoken" "*"
 
-"@types/hapi-pino@^6.3.0":
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/@types/hapi-pino/-/hapi-pino-6.3.0.tgz#60cd7faa68ac510fae7d6eefc15b4b4dcd9f2b25"
-  integrity sha512-hhYHWaBSFE94eHVoBeJHgfamME2jIsdDbO+j6u5HvuqBk1WsdV70xzcleou8JeQw/nE1sn6Yfj8jRKwClK0dGA==
+"@types/hapi-pino@^6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@types/hapi-pino/-/hapi-pino-6.4.0.tgz#3e1103918812d8bd8d4f189b68d08c086eafe74c"
+  integrity sha512-5okQF+hl3P1DX1S/rR/zWQpEYP8qzwj/LcXPqRx5QT00h6BcViM8HAO87cqho2y8LsVzLAHfOeQp1/6jgV8E7A==
   dependencies:
     "@types/hapi__hapi" "*"
     "@types/node" "*"
