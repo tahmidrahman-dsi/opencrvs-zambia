@@ -563,13 +563,12 @@
   resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.7.tgz#c8fa532b60a0042219cdf173ca21a975ef0666ad"
   integrity sha512-wE2v81i4C4Ol09RtsWFAqg3BUitWbHSpSlIo+bNdsCJijO9sjme+zm+73ZMCa/qMC8UEERxzGbvmr1cffo2SiQ==
 
-"@types/hapi-auth-jwt2@8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@types/hapi-auth-jwt2/-/hapi-auth-jwt2-8.0.1.tgz#923414680992b27486f8cfeee7bc71738f41e951"
-  integrity sha512-7QWtPXXG2R1y5UPnVR/HE8si8SnDa3LSiU/LI8NGI7QkBGF1QnUxKu/gU3HCZROkVwY1hjPPrBZZSe11AJo6nQ==
+"@types/hapi-auth-jwt2@8.6.1":
+  version "8.6.1"
+  resolved "https://registry.yarnpkg.com/@types/hapi-auth-jwt2/-/hapi-auth-jwt2-8.6.1.tgz#4ff99ca995c53574ccb9d6a8b8087dce41ba31b0"
+  integrity sha512-ZjWb5w0TVkl0eaYVZ8rWNYn3O89Toy/a3hJB86hDWIyO0UgL0CQBsC7TFtxIXgreCMx5bG4WwcJEkOTQPx3EPw==
   dependencies:
-    "@types/hapi" "*"
-    "@types/jsonwebtoken" "*"
+    hapi-auth-jwt2 "*"
 
 "@types/hapi-pino@^6.3.0":
   version "6.3.0"
@@ -708,13 +707,6 @@
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
-
-"@types/jsonwebtoken@*":
-  version "8.3.7"
-  resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-8.3.7.tgz#ab79ad55b9435834d24cca3112f42c08eedb1a54"
-  integrity sha512-B5SSifLkjB0ns7VXpOOtOUlynE78/hKcY8G8pOAhkLJZinwofIBYqz555nRj2W9iDWZqFhK5R+7NZDaRmKWAoQ==
-  dependencies:
-    "@types/node" "*"
 
 "@types/lodash@^4.14.117":
   version "4.14.149"
@@ -1698,6 +1690,11 @@ cookie@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
   integrity sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
+
+cookie@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
+  integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
 
 copy-descriptor@^0.1.0:
   version "0.1.1"
@@ -2767,6 +2764,15 @@ growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
+
+hapi-auth-jwt2@*:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/hapi-auth-jwt2/-/hapi-auth-jwt2-10.0.0.tgz#2fb9333400c483833e5155321e10a249ab6b0c51"
+  integrity sha512-Xax8xd3dz1vtVnJBrij/rAWb1lQVjlIQOkjIoj2nd0ZAGpsXWPyqCDd9HxMHVoezAjZAZ7JCwSfdDnjEnvrEmg==
+  dependencies:
+    "@hapi/boom" "^9.0.0"
+    cookie "^0.4.0"
+    jsonwebtoken "^8.5.1"
 
 hapi-auth-jwt2@8.1.0:
   version "8.1.0"
@@ -3934,7 +3940,7 @@ jsonparse@^1.3.1:
   resolved "https://registry.yarnpkg.com/jsonparse/-/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
   integrity sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
 
-jsonwebtoken@^8.1.0, jsonwebtoken@^8.3.0:
+jsonwebtoken@^8.1.0, jsonwebtoken@^8.3.0, jsonwebtoken@^8.5.1:
   version "8.5.1"
   resolved "https://registry.yarnpkg.com/jsonwebtoken/-/jsonwebtoken-8.5.1.tgz#00e71e0b8df54c2121a1f26137df2280673bcc0d"
   integrity sha512-XjwVfRS6jTMsqYs0EsuJ4LGxXV14zQybNd4L2r0UvbVnSF9Af8x7p5MzbJ90Ioz/9TI41/hTCvznF/loiSzn8w==
